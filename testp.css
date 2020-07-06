@@ -1,0 +1,93 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul, nav {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* h1, h2, h3, h4, h5, h6{
+    line-height: 1.2;
+} */
+.subscription{
+    padding: 130px 0 0 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}    
+h2{
+    font-size: 36px;
+    margin: 0 0 28px 0 ;
+}
+.content{
+    font-size: 16px;
+    line-height: 36px;
+    margin: auto;
+}
+.content p{
+    margin:auto;
+    /* width: 630px; */
+
+}
+.content p:nth-child(1){
+    width: 630px;
+    margin-bottom: 40px;
+}
+.content p:nth-child(2){
+    width: 680px;
+    margin-bottom: 40px;
+}
+ol{
+    display: flex;
+    width: 50px;
+    margin-bottom: 50px;
+}
+li{
+    margin: 0 25px;
+}
+button{
+    width: 342px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+button img{
+    width: 100%;
+}
