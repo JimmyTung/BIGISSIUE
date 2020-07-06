@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+#subscription{
+    .container{
+        width: 1200px;
+        height: 100vh;
+        // background-color: limegreen;
+        margin: auto;
+        
+        .sentence{
+            text-align: center;
+            padding: 130px 0 0 0;
+            .outline{
+
+            }
+            .content{
+                width: 643px;
+                margin: auto;
+                p{
+                    line-height: 24px;
+                }
+                #personal{
+                    margin: 22px 0 0 0;
+                }
+            }
+        }
+        .cards{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            // background-color: mediumaquamarine;
+            text-align: center;
+            .cardbox{
+                margin: auto;
+                display: inline;
+            }
+        }
+        .button{
+            
+            display: inline;
+            text-align: center;
+        }
+    }
+}
+     
