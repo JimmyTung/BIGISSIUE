@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAIe,YAJH,CACR,UAAU,CACN,IAAI,CACA,IAAI,CACD,QAAQ,CAAA;EACP,MAAM,EAAC,IAAI;CAIT;;AATlB,AAMoB,YANR,CACR,UAAU,CACN,IAAI,CACA,IAAI,CACD,QAAQ,CAEH,CAAC,CAAA;EACD,SAAS,EAAE,IAAI;CACb",
+    "sources": [
+        "fixedPoints.scss"
+    ],
+    "names": [],
+    "file": "fixedPoints.css"
+}

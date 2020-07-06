@@ -1,1 +1,50 @@
-/* No CSS *//*# sourceMappingURL=subscription.css.map */
+body {
+  margin: 0;
+}
+
+#subscription .container {
+  width: 1200px;
+  height: 100vh;
+  margin: auto;
+}
+
+#subscription .container .sentence {
+  text-align: center;
+  padding: 130px 0 0 0;
+}
+
+#subscription .container .sentence .content {
+  width: 643px;
+  margin: auto;
+}
+
+#subscription .container .sentence .content p {
+  line-height: 24px;
+}
+
+#subscription .container .sentence .content #personal {
+  margin: 22px 0 0 0;
+}
+
+#subscription .container .cards {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+#subscription .container .cards .cardbox {
+  margin: auto;
+  display: inline;
+}
+
+#subscription .container .button {
+  display: inline;
+  text-align: center;
+}
+/*# sourceMappingURL=subscription.css.map */
