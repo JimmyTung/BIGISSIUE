@@ -1,0 +1,81 @@
+
+.fixedPoints {
+  padding-top: 30px;
+  font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+.fixedPoints .container {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.fixedPoints h2 {
+  padding-bottom: 15px;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.fixedPoints .outline::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 225px;
+  height: 60px;
+  background-image: url("img/outlineGrid.png");
+}
+
+.fixedPoints .areas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 300;
+  justify-content: space-around;
+  
+}
+/* .fixedPoints .areas .info{
+  display: none;
+} */
+.fixedPoints .areas .taipei{
+  width: 525px;
+  height: 545px;
+  position: relative;
+  
+}
+
+/* .btn{
+  display: none;
+}
+.btn.active{
+  display: block;
+}
+#click{
+  display: block;
+} */
+
+/* 
+.fixedPoints .areas .taipei { 
+  text-align: start;
+  position: relative;
+}
+.fixedPoints .areas .taipei  img{
+  position: relative;
+  top: 40px;
+  left: -100px;
+} */
+/* .fixedPoints .areas .taipei::after{
+  content: "";
+  background-image: url("img/areaTaipei.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 30px;
+  left: -350px;
+  width: 893px;
+  height: 575px;
+  z-index: 5;
+  
+} */

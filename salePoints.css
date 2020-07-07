@@ -1,0 +1,51 @@
+.salePoints {
+  padding: 130px 0 0 0;
+}
+
+.salePoints .container {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.salePoints .container h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.salePoints .container h2::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 225px;
+  height: 60px;
+  background-image: url("img/outlineGrid.png");
+  top: -13px;
+  right: 490px;
+}
+
+.salePoints .container .content p:nth-child(3) {
+  width: 680px;
+  display: inline-block;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 35px;
+}
+
+.salePoints .container .map iframe {
+  width: 900px;
+  height: 480px;
+}
+
+.salePoints .container .map::after {
+  content: "";
+  background-image: url("img/gridSmaill.png");
+  position: absolute;
+  width: 142px;
+  height: 244px;
+  z-index: -1;
+  top: 485px;
+  right: 25px;
+}
+/*# sourceMappingURL=salePoints.css.map */
