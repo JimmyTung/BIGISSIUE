@@ -45,49 +45,51 @@ table {
     line-height: 1.2;
 } */
 .subscription{
-    padding: 130px 0 0 0;
+    padding: 130px 0 27px 0;
+    font-family: 'Noto Sans TC', sans-serif;
 }
-.container{
+.subscription .container{
     width: 1200px;
     margin: auto;
     text-align: center;
 }    
-h2{
+.subscription .container h2{
     font-size: 36px;
     margin: 0 0 28px 0 ;
+    font-weight: 500;
 }
-.content{
+.subscription .container .content{
     font-size: 16px;
     line-height: 36px;
     margin: auto;
 }
-.content p{
+.subscription .container .content p{
     margin:auto;
     /* width: 630px; */
 
 }
-.content p:nth-child(1){
+.subscription .container .content p:nth-child(1){
     width: 630px;
     margin-bottom: 40px;
 }
-.content p:nth-child(2){
-    width: 680px;
+.subscription .container .content p:nth-child(2){
+    width: 683px;
     margin-bottom: 40px;
 }
-ol{
+.subscription .container ol{
     display: flex;
     width: 50px;
     margin-bottom: 50px;
 }
-li{
+.subscription .container ol li{
     margin: 0 25px;
 }
-button{
+.subscription .container button{
     width: 342px;
     border: none;
     display: block;
     margin: 0 auto;
 }
-button img{
+.subscription .container button img{
     width: 100%;
 }
