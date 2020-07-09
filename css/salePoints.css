@@ -6,36 +6,36 @@ p{
   font-family: 'Noto Sans TC', sans-serif;
 }
 
-.salePoints .container {
+.salePoints .salePointsContainer {
   width: 1200px;
   margin: auto;
   text-align: center;
   position: relative;
 }
 
-.salePoints .container h2 {
+.salePoints .salePointsContainer h2 {
   font-size: 36px;
   font-weight: medium;
   margin: 30px 0 45px 0;
 }
 
-.salePoints .container h2::after {
+.salePoints .salePointsContainer h2::after {
   content: "";
   position: absolute;
   z-index: -1;
   width: 225px;
   height: 60px;
   background-image: url("../img/outline.png");
-  top: -13px;
+  top: -7px;
   right: 490px;
 }
-.salePoints .container .content p:nth-child(1){
+.salePoints .salePointsContainer .salePointsContent p:nth-child(1){
   margin-bottom: 10px;
 }
-.salePoints .container .content p:nth-child(1){
+.salePoints .salePointsContainer .salePointsContent p:nth-child(1){
   margin-bottom: 10px;
 }
-.salePoints .container .content p:nth-child(3) {
+.salePoints .salePointsContainer .salePointsContent p:nth-child(3) {
   width: 680px;
   display: inline-block;
   line-height: 34px;
@@ -43,12 +43,12 @@ p{
   margin-bottom: 31.5px;
 }
 
-.salePoints .container .map iframe {
+.salePoints .salePointsContainer .map iframe {
   width: 900px;
   height: 480px;
 }
 
-.salePoints .container .map::after {
+.salePoints .salePointsContainer .map::after {
   content: "";
   background-image: url("img/gridSmaill.png");
   position: absolute;

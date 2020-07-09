@@ -48,48 +48,60 @@ table {
     padding: 130px 0 27px 0;
     font-family: 'Noto Sans TC', sans-serif;
 }
-.subscription .container{
+.subscription .subscriptionContainer{
     width: 1200px;
     margin: auto;
     text-align: center;
 }    
-.subscription .container h2{
+.subscription .subscriptionContainer h2{
     font-size: 36px;
     margin: 0 0 28px 0 ;
     font-weight: 500;
 }
-.subscription .container .content{
+.subscription .subscriptionContainer h2::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 225px;
+    height: 60px;
+    background-image: url("../img/outline.png");
+    top: 125px;
+    right: 850px;
+  }
+.subscription .subscriptionContainer .subscriptionContent{
     font-size: 16px;
     line-height: 36px;
     margin: auto;
 }
-.subscription .container .content p{
+.subscription .subscriptionContainer .subscriptionContent p{
     margin:auto;
     /* width: 630px; */
 
 }
-.subscription .container .content p:nth-child(1){
+.subscription .subscriptionContainer .subscriptionContent p:nth-child(1){
     width: 630px;
     margin-bottom: 40px;
 }
-.subscription .container .content p:nth-child(2){
+.subscription .subscriptionContainer .subscriptionContent p:nth-child(2){
     width: 683px;
     margin-bottom: 40px;
 }
-.subscription .container ol{
+.subscription .subscriptionContainer ol{
     display: flex;
-    width: 50px;
+    width: 100%;
+
     margin-bottom: 50px;
 }
-.subscription .container ol li{
+.subscription .subscriptionContainer ol li{
     margin: 0 25px;
+    width: 33.3%;
 }
-.subscription .container button{
+.subscription .subscriptionContainer button{
     width: 342px;
     border: none;
     display: block;
     margin: 0 auto;
 }
-.subscription .container button img{
+.subscription .subscriptionContainer button img{
     width: 100%;
 }

@@ -17,13 +17,13 @@ footer .middle {
           transform: translate(-50%, -50%);
 }
 
-footer .container {
+footer .footerContainer {
   width: 1200px;
   margin: auto;
   
 }
 
-footer .container .info {
+footer .footerContainer .info {
 
 
   display: -webkit-box;
@@ -33,23 +33,23 @@ footer .container .info {
   height: 160px;
 }
 
-footer .container .info .media {
+footer .footerContainer .info .media {
   width: 30%;
   position: relative;
   text-align: center;
 
 }
 
-footer .container .info .media #team {
+footer .footerContainer .info .media #team {
   margin-top: 70px;
   font-size: 14px;
 }
 
-footer .container .info .contact {
+footer .footerContainer .info .contact {
   width: 70%;
 }
 
-footer .container .info .contact #address {
+footer .footerContainer .info .contact #address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,11 +58,11 @@ footer .container .info .contact #address {
           justify-content: space;
 }
 
-footer .container .info .contact #address p {
+footer .footerContainer .info .contact #address p {
   margin: 30px 10px;
 }
 
-footer .container .announce {
+footer .footerContainer .announce {
   width: 100%;
   height: 50px;
   background-color: #DFDFDD;
@@ -70,7 +70,7 @@ footer .container .announce {
   position: relative;
 }
 
-footer .container .announce p {
+footer .footerContainer .announce p {
   margin: 0;
 }
 /*# sourceMappingURL=footer.css.map */
