@@ -9,7 +9,7 @@ footer .colorDown{
   background-color: #DFDFDD;
 }
 
-footer .middle {
+footer .colorDown p:nth-child(1) {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -40,7 +40,7 @@ footer .footerContainer .info .media {
 
 }
 
-footer .footerContainer .info .media #team {
+footer .footerContainer .info .media .team {
   margin-top: 70px;
   font-size: 14px;
 }
@@ -49,7 +49,7 @@ footer .footerContainer .info .contact {
   width: 70%;
 }
 
-footer .footerContainer .info .contact #address {
+footer .footerContainer .info .contact .address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,7 +58,7 @@ footer .footerContainer .info .contact #address {
           justify-content: space;
 }
 
-footer .footerContainer .info .contact #address p {
+footer .footerContainer .info .contact .address p {
   margin: 30px 10px;
 }
 
