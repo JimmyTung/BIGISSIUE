@@ -65,6 +65,16 @@
     <script>
         var sideTitle = document.querySelector(".outlineFixed")
         console.log(sideTitle)
+        window.onscroll = function () {
+            if(document.documentElement.scrollTop > 1080){
+                sideTitle.classList.add('active')
+               
+            }else{
+                sideTitle.classList.remove('active')
+                
+
+            }
+        };
     </script>
 </body>
 </html>

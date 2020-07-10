@@ -25,6 +25,7 @@ ol, li{
 .about .aboutContainer li{
     width: 100%;
     display: flex;
+    margin-bottom: 20px;
 }
 .about .aboutContainer ol li .portrait{
     width: 50%;
@@ -37,6 +38,7 @@ ol, li{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 
     
 }
@@ -86,5 +88,9 @@ ol, li{
 }
 .outlineFixed{
     position: fixed;
+    transition: 0.8s;
+}
+.outlineFixed.active{
+    display: none;
 }
 

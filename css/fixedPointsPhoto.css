@@ -1,3 +1,9 @@
+outline{
+
+}
+.fixedPoints img{
+  width: 100%;
+}
 .fixedPoints {
   padding-top: 130px;
   padding-bottom: 42px;
@@ -27,14 +33,14 @@
   z-index: -1;
   width: 225px;
   height: 60px;
-  background-image: url("https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/pc-salePoints/outline.png");
+  background-image: url("https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/01-PC/06-place/outline.png");
 }
 
 
-.fixedPoints .fixedPointsContainer .contentUp p:nth-child(1) {
+.fixedPoints .fixedPointsContainer .fixedPointTxt p:nth-child(1) {
 margin-bottom: 10px;
 }
-.fixedPoints .fixedPointsContainer .contentUp p:nth-child(2) {
+.fixedPoints .fixedPointsContainer .fixedPointTxt p:nth-child(2) {
   margin-bottom: 42px;
   }
 .fixedPoints .areas {
@@ -106,7 +112,7 @@ margin-bottom: 10px;
 #east img:nth-child(1){
   position: relative;
     top: 160px;
-    left: -280px;
+    left: -200px;
     z-index: 1;
 }
 #east img:nth-child(2){
@@ -115,15 +121,21 @@ margin-bottom: 10px;
 }
 .fixedPoints .fixedPointsContainer .decoration{
   position: absolute;
-  top: 820px;
+  top: 770px;
   right: 120px;
+  width: unset;
 }
 
-.clear{
+.areaMap{
   display: none;
 }
-.clear.active{
+.areaMap.active{
   display: block;
+}
+@media (max-width: 1200px){
+  .fixedPoints .fixedPointsContainer{
+  width: 100%;
+  }
 }
 
 

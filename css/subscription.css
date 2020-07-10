@@ -64,7 +64,7 @@ table {
     z-index: -1;
     width: 225px;
     height: 60px;
-    background-image: url("../img/outline.png");
+    background-image: url("https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/pc-subscription/outline.png");
     top: 125px;
     right: 850px;
   }
@@ -105,3 +105,8 @@ table {
 .subscription .subscriptionContainer button img{
     width: 100%;
 }
+@media (max-width: 1200px){
+    .subscription .subscriptionContainer{
+    width: 100%;
+    }
+  }
