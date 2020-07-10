@@ -10,7 +10,6 @@ ol, li{
 }
 .about .aboutContainer{
     width: 1090px;
-    height: 100vh;
     margin: auto;
     text-align: center;
 }
@@ -24,15 +23,6 @@ ol, li{
     width: 100%;
 }
 .about .aboutContainer li{
-    width: 100%;
-}
-.about .aboutContainer li .portrait{
-    width: 50%;
-}   
-.about .aboutContainer li .aboutContent{
-    width: 50%;
-}
-.about .aboutContainer ol li:nth-child(1){
     width: 100%;
     display: flex;
 }
@@ -79,7 +69,7 @@ ol, li{
     line-height: 25px;
 }
 
-.about .aboutContainer ol li #one{
+.about .aboutContainer ol li .number{
     position: absolute;
     left: 47.5%;
 }
@@ -94,7 +84,7 @@ ol, li{
     display: flex;
 
 }
-.outline{
-    position: absolute;
+.outlineFixed{
+    position: fixed;
 }
 

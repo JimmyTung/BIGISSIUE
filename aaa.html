@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="aaa.css">
+    <link rel="stylesheet" href="css/about.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
 </head>
 <body>
     <section class="section about">
-        <img class="outline" src="https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/pc-about/Side_title_03.png" alt="">
+        <img height="80%" class="outlineFixed" src="https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/pc-about/Side_title_03.png" alt="">
         <div class="aboutContainer">
             <h2>關於大誌</h2>
             <ol>
@@ -27,7 +27,7 @@
                             </p>
                         </div>    
                     </div>
-                    <img id="one" src="https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/pc-about/aboutme_number_01.png"  alt="">
+                    <img class="number" src="https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/pc-about/aboutme_number_01.png"  alt="">
                 </li>
                 <li>
                     <div class="portrait">
@@ -43,7 +43,7 @@
                          </div>
                          
                      </div>
-                     <img id="one" src="https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/pc-about/aboutme_number_02.png"  alt="">
+                     <img class="number" src="https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/pc-about/aboutme_number_02.png"  alt="">
                 </li>
                 <li>
                     <div class="portrait">
@@ -57,10 +57,14 @@
                              </p>
                          </div>    
                      </div>
-                     <img id="one" src="https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/pc-about/aboutme_number_03.png"  alt="">
+                     <img class="number" src="https://raw.githubusercontent.com/Soumeteor/the-big-iusse/master/material/pc-about/aboutme_number_03.png"  alt="">
                 </li>
             </ol>
         </div>
     </section>
+    <script>
+        var sideTitle = document.querySelector(".outlineFixed")
+        console.log(sideTitle)
+    </script>
 </body>
 </html>
